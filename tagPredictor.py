@@ -6,7 +6,7 @@ from sklearn.preprocessing import MultiLabelBinarizer
 
 
 # READ DATA
-df = pd.read_csv('output.csv')
+df = pd.read_csv('data/output.csv')
 import ast
 df['tags'] = df['tags'].apply(lambda x: ast.literal_eval(x))
 

@@ -19,7 +19,7 @@ def index():
 def api_all():
 	question = []
 	question.append(request.json['question'])
-	print(question)
+	# print(question)
 	tags = getTags(question)[0]
 	return jsonify(tags)
 
