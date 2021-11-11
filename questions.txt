@@ -1,7 +1,7 @@
 Why do we need ??!??! operator
 How to save trained tensorflow model on disk
 What is the use of ??!??! operator
-How to access local storage from browser
+How to access local storage
 How does hashmap work
 What is the need of Virtual Functions
 How does hot reload work
@@ -10,3 +10,7 @@ What is the need of CORS and how to enable it in Flask
 Access specifier for class
 Bootstrap modal not working on click
 How to save a CSV from a dataframe
+Laravel 4: Input::all() returns no data with $.ajax POST
+Trying to create a table in Struts2 from an ArrayList
+invalid conversion from char to const char
+Validation to have only numeric data in a textbox in a window form
