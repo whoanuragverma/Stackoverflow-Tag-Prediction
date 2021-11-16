@@ -23,5 +23,6 @@ y = multilabel.fit_transform(y)
 def getTags(question):
 	question = tfidf.transform(question)
 	tags = multilabel.inverse_transform(tagPredictorModel.predict(question))
-	print(tags)
+	if len(tags[0]) == 0:
+		return [['try rephrasing the question']]
 	return tags

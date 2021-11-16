@@ -14,3 +14,26 @@ Laravel 4: Input::all() returns no data with $.ajax POST
 Trying to create a table in Struts2 from an ArrayList
 invalid conversion from char to const char
 Validation to have only numeric data in a textbox in a window form
+How can I erase the contours drawn in the same image using Python OpenCV?
+
+
+How to get the -real- last character typed in input with maxlength?
+
+
+I wanted to know which character the user is typing into an input:
+
+I have an input:
+
+  <input maxlength="20"/>
+and a script that returns the last typed char:
+
+var eingabe;
+$('form').on('keypress', function(event) {
+
+    /// if no whitespace:
+    if (String.fromCharCode(event.keyCode).replace(/\s/g, "").length > 0) {
+    eingabe = String.fromCharCode(event.keyCode);
+    $('#eingabe').html("<div>Eingabe : "+ eingabe +"</div>");
+   }
+});
+My question is: because my input has a maxlength attribute, the last typed character on the keyboard is sometimes not the last -real- typed character into the input because the input is "full". How can I get the last character typed into the input?
